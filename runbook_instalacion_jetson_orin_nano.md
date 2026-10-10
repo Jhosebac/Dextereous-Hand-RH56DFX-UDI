@@ -52,7 +52,7 @@ Para la preparación e instalación del software se utilizó la herramienta ofic
 2. **Descarga de SDK Manager:**
    - Descargar el instalador correspondiente desde el portal oficial de NVIDIA.
 3. **Verificación del Powershell 7**
-   - Comprobar que el equipo cuente con el PowerShell 7 instalado, se puede comprobar con el comando `$PSVersionTable` dentro del PowerShell de windows instalado. La ventana en la primera linea mostrará la versión actual.
+   - Comprobar que el equipo cuente con el PowerShell 7 instalado, se puede comprobar con el comando `$PSVersionTable` dentro del PowerShell de Windows. La consola en la primera linea mostrará la versión actual.
    - En caso de tener una versión anterior ejecute el siguiente comando en el PowerShell, `winget search --id Microsoft.PowerShell --exact`, y paso seguido `winget install --id Microsoft.PowerShell --source winget`. Si al final la consola le arroja el mensaje "*Successfully installed*" en la última linea, el PowerShell 7 quedó instalado correctamente.
    - Para comprobar de manera adicional, se puede usar el mismo comando anterior `$PSVersionTable` o el `pwsh` y la consola le arrojara "*PowerShell 7.x.x*"
 5. **Controladores USB / Modo APX (Host Windows / Entorno de Flasheo):**
